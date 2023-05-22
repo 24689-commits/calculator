@@ -45,7 +45,7 @@ document.querySelector('#equal').addEventListener('click', ()=>{
 
 
 document.querySelector('#division').addEventListener('click', ()=>{
-    firstOp = result.value;
+    num = result.value;
     operator = "/";
     clear();
 })
@@ -123,7 +123,7 @@ document.querySelector('#equal').addEventListener('click', ()=>{
     switch(operator){
         case '%':
             result.value = 
-            eval(`${num}%${num2}`).toFixed(2)
+            eval(`${num}/100`).toFixed(2)
             break;
         }
     })
@@ -136,12 +136,18 @@ document.querySelector('#mod').addEventListener('click', ()=>{
     clear();
 })
 
-document.querySelector('#dot').addEventListener('click', ()=>{
-    if (cnt>=1){
-    document.querySelector('#dot').disabled = true;
-    }else {
-        display('.');
-    }
-    cnt++;
+// document.querySelector('#dot').addEventListener('click', ()=>{
+//     if (cnt>=1){
+//     document.querySelector('#dot').disabled = true;
+//     }else {
+//         display('.');
+//     }
+//     cnt++;
 
-})
+// })
+
+
+
+
+
+
