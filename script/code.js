@@ -1,5 +1,5 @@
 let cnt = 0;
-// let num = 0;
+let num = 0;
 let operator = "";
 let results = document.querySelector('#output');
 
