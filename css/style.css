@@ -11,7 +11,7 @@ form input{
     font-size: 50px;
     text-align: end;
     /* padding-left: 50px; */
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(12, 12, 12);
     pointer-events: none;
 
@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    padding: 150px;
     background: white;
 
 }
@@ -35,9 +35,10 @@ button{
     border: 1px solid transparent;
     color: antiquewhite;
     background-color: rgb(141, 134, 134);
+}
 
-
-    
+button:hover{
+    background-color: black;
 }
 .buttons{
     display: flex;
@@ -52,16 +53,15 @@ button{
    align-items: center;
 }
 .btng{
-    background-color: rgb(217, 216, 216);
-    color: black;
+    /* background-color: rgb(217, 216, 216); */
+    background-color: orange;
     font-size: 30px;
    justify-content: center;
    align-items: center;
 }
 .calculator{
-    width: 300px;
+    width: 320px;
     height: 500px;
-    /* box-shadow: 4px 4px 30px; */
     background: black;
     border-radius: 20px;
     overflow: hidden;
